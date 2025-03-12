@@ -1,0 +1,6 @@
+#Helm chart.yaml-the chart yaml file is required for a chart(chart.json)
+apiVersion: v2
+name: nginx
+version: 1.0.0 #chart version
+description: This is nginx deployment
+appVersion: 1.2.0 #nginx app version
