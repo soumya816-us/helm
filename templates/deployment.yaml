@@ -22,6 +22,6 @@ spec:
     spec:
       containers:-
       - name: nginx
-        image: nginx:{{ .Values.deployment.imageVersion }} #imagine this will change
+        image: nginx: {{ .Values.deployment.imageVersion }} #imagine this will change
         ports:
         - containerPort: 80
